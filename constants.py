@@ -2,8 +2,8 @@
 # CONSTANTS
 DEV_TEST = False #For Development
 SUBSET = True #Use Subset of Dataset set as 25000
-USE_TRAINED = True # Use a previously trained checkpoint model
-trained_model_name = "results/checkpoint-15500/"
+USE_TRAINED = True #Use a previously trained checkpoint model
+trained_model_name = "results/checkpoint-15500/" #Saved model directory
 USE_RL = True #Use entailment
 REGULARIZE = True #Use Regularization
 reward_type = "entailment_max" # Reward type For ENT: "entailment_mean", For ENT+: "entailment_max"
