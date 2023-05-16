@@ -1,0 +1,5 @@
+transformers
+torch
+sentencepiece
+rouge_score
+datasets
